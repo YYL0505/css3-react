@@ -102,4 +102,8 @@ to the rest of the flexible items inside the same container.*/
 
 .p3 {
     flex-basis: 50px;
+
+    /*The flex-shrink property specifies how the item will shrink
+    relative to the rest of the flexible items inside the same container.*/
+    flex-shrink: 2;
 }
