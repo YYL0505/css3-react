@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App'
+import AppAlignment from './AppAlignment'
 
 ReactDOM.render(
-<App />,
+<AppAlignment />,
     document.getElementById('app')
 );
