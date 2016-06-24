@@ -80,10 +80,16 @@ to the rest of the flexible items inside the same container.*/
 .p1 {
     /*The flex-basis property specifies the initial length (in flex-direction) of a flexible item.*/
     flex-basis: 30px;
+
+    /*The flex-grow property specifies how much the item will grow
+    relative to the rest of the flexible items inside the same container.*/
+    flex-grow: 2;
 }
 
 .p2 {
     flex-basis: 30px;
+    flex-grow: 1;
+
     /*The align-self property specifies the alignment
     for the selected item inside the flexible container.*/
     align-self: center;  /*stretch center flex-start flex-end baseline*/
