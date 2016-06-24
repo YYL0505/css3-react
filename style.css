@@ -78,6 +78,7 @@ to the rest of the flexible items inside the same container.*/
 }
 
 .p1 {
+    /*flex-basis vs flex-grow vs grow-shrink http://zhoon.github.io/css3/2014/08/23/flex.html*/
     /*The flex-basis property specifies the initial length (in flex-direction) of a flexible item.*/
     flex-basis: 30px;
 
