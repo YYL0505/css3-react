@@ -108,3 +108,18 @@ to the rest of the flexible items inside the same container.*/
     relative to the rest of the flexible items inside the same container.*/
     flex-shrink: 2;
 }
+
+.appFlexWrap {
+    background: #333333;;
+    width: 100px;
+    display: flex;
+
+    /*The flex-wrap property specifies whether the flexible items should wrap or not*/
+    flex-wrap: nowrap; /*wrap nowrap wrap-reverse*/
+}
+
+.pp {
+    background: #f8f8f8;
+
+    width: 40px;
+}

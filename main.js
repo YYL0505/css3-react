@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App'
 import AppAlignment from './AppAlignment'
+import AppFlexWrap from './AppFlexWrap'
 
 ReactDOM.render(
-<AppAlignment />,
+<AppFlexWrap />,
     document.getElementById('app')
 );
