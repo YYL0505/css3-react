@@ -69,6 +69,7 @@ to the rest of the flexible items inside the same container.*/
     /*The justifyContent property aligns the flexible container's items
     when the items do not use all available space on the main-axis (horizontally).*/
     justify-content: space-around; /* flex-start center flex-end space-between space-around*/
+    align-items: center; /*stretch center flex-start flex-end baseline*/
 }
 
 .ps {
