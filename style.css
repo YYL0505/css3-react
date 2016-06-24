@@ -24,4 +24,12 @@ body {
     display: flex;
     /*inline-flex will display itself inline with its pre-brother item if pre-brother is inline*/
     /*display: inline-flex;*/
+
+
+    flex-direction: column;
+    /*flex-direction: row;*/
+
+    /*column(row)-reverse will make the childern items reverse*/
+    /*flex-direction: column-reverse;*/
+    /*flex-direction: row-reverse;*/
 }
