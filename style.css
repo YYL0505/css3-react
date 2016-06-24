@@ -33,3 +33,30 @@ body {
     /*flex-direction: column-reverse;*/
     /*flex-direction: row-reverse;*/
 }
+
+.main-header {
+    background: #B61E32;
+    padding: 10px;
+}
+
+.main-content {
+    background: #F7CE2B;
+    min-height: 40vh;
+    padding: 10px;
+}
+
+.main-footer {
+    background: #ABC999;
+    padding: 10px;
+    order: 1;
+}
+
+.appContainer {
+    display: flex;
+    flex-direction: column;
+}
+/*The order property specifies the order of a flexible item relative
+to the rest of the flexible items inside the same container.*/
+.main-nav {
+    order: 0;
+}
